@@ -178,7 +178,7 @@
           "Accès à l'app GetFitNow",
           "Suivi personnalisé et visio"
         ],
-        "link": "PAIEMENT_PERFORMANCE_LIEN",
+        "link": "https://gaelnormandin2.systeme.io/performances.prisedemasse",
         "button_text": "Je choisis Performance & Prise de Masse",
         "flavors": [
           "Vanille",
