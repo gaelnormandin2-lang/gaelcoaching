@@ -2,32 +2,32 @@
   "promesse": {
     "tag": "La promesse",
     "title": "On ne te vend pas un produit. On t'apprend à comprendre ce que tu manges.",
-    "p1": "La plupart des gens sautent le petit-déjeuner ou prennent quelque chose de rapide sans vraiment savoir ce qu'il y a dedans. Pourtant, après une nuit de sommeil, ton corps se réveille déshydraté et sans réserve immédiate, c'est pile le moment où un apport nutritionnel de qualité fait le plus de différence sur ton énergie de la journée. Le petit-déjeuner inclus dans ton programme t'apporte d'office 38% de tes besoins quotidiens en vitamines et minéraux, des protéines pour soutenir ta masse musculaire, des fibres pour ta digestion, et des glucides de qualité pour ton énergie.",
-    "p2": "Un apport de 220 kcal peut suffire à couvrir 18g de protéines et 25 vitamines et minéraux essentiels. La vraie question n'est jamais \"combien de calories\" — c'est \"qu'est-ce qu'il y a dedans\". C'est ce qu'on regarde ensemble, produit par produit, décision par décision."
+    "p1": "La plupart des gens sautent le petit-déjeuner ou prennent quelque chose de rapide sans vraiment savoir ce qu'il y a dedans. Pourtant, après une nuit de sommeil, ton corps se réveille déshydraté et sans réserve immédiate, c'est pile le moment où un apport nutritionnel de qualité fait le plus de différence sur ton énergie de la journée. ",
+    "p2": "Le petit-déjeuner inclus dans ton programme t'apporte d'office 38% de tes besoins quotidiens en vitamines et minéraux, des protéines pour soutenir ta masse musculaire, des fibres pour ta digestion, et des glucides de qualité pour ton énergie."
   },
   "method": {
     "tag": "Comment ça marche",
-    "title": "4 étapes. 21 jours. Un accompagnement qui évolue avec toi.",
+    "title": "4 étapes, 21 jours, un accompagnement qui évolue avec toi.",
     "steps": [
       {
         "num": "01",
-        "title": "On identifie ton objectif réel",
-        "desc": "Perte de poids, prise de muscle, performance, ou simplement retrouver de l'énergie — chaque objectif a une réponse différente."
+        "title": "On fait le point sur tes objectifs",
+        "desc": "Perte de poids, prise de masse musculaire, performances sportives, ou simplement retrouver de l'énergie ? Chaque objectif a une réponse différente."
       },
       {
         "num": "02",
-        "title": "Tu reçois un programme calibré",
-        "desc": "Petit-déjeuner nutritionnel complet, hydratation adaptée, produits ciblés selon ton objectif — livrés directement chez toi."
+        "title": "Tu reçois un programme adapté",
+        "desc": "Petit-déjeuner nutritionnel complet, hydratation optimisée, produits ciblés selon ton objectif, livrés directement chez toi."
       },
       {
         "num": "03",
-        "title": "Tu es suivi personnellement",
-        "desc": "Pas un programme qu'on t'envoie et qu'on oublie : un vrai suivi, ajusté à ton rythme et à tes retours."
+        "title": "Tu prends du plaisir dès les premiers jours",
+        "desc": "Mise en place de tes nouvelles habitudes ensemble, simplement et en fonction de ton quotidien"
       },
       {
         "num": "04",
-        "title": "Tu ajustes, tu progresses",
-        "desc": "Le programme évolue avec toi sur les 21 jours — il ne reste pas figé si ta réalité quotidienne change."
+        "title": "On ajuste en fonction, et on sort ton résultats ",
+        "desc": "Le programme évolue avec toi sur les 21 jours, il ne reste pas figé si ton quotidien change"
       }
     ]
   },
