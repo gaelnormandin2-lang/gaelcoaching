@@ -1,0 +1,161 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Contenu du site"
+    files:
+      - file: "content.json"
+        label: "Page d'accueil"
+        name: "content"
+        fields:
+          - label: "Hero (haut de page)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Tag (petit texte au-dessus du titre)", name: "tag", widget: "string" }
+              - { label: "Titre principal", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "text" }
+              - { label: "Texte bouton principal", name: "cta_primary", widget: "string" }
+              - { label: "Texte bouton secondaire (quiz)", name: "cta_secondary", widget: "string" }
+              - { label: "Lien du quiz", name: "quiz_link", widget: "string" }
+
+          - label: "La promesse"
+            name: "promesse"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Paragraphe 1", name: "p1", widget: "text" }
+              - { label: "Paragraphe 2", name: "p2", widget: "text" }
+
+          - label: "Comment ça marche"
+            name: "method"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - label: "Étapes"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Numéro", name: "num", widget: "string" }
+                  - { label: "Titre de l'étape", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Ce qui est inclus"
+            name: "includes"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - label: "Éléments inclus"
+                name: "items"
+                widget: "list"
+                field: { label: "Élément", name: "item", widget: "string" }
+
+          - label: "Les résultats"
+            name: "results"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - label: "Statistiques"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Chiffre", name: "num", widget: "string" }
+                  - { label: "Légende", name: "label", widget: "string" }
+              - { label: "Citation témoignage", name: "quote", widget: "text" }
+              - { label: "Nom du client / programme suivi", name: "quote_who", widget: "string" }
+              - { label: "Note placeholder (à retirer une fois de vrais témoignages ajoutés)", name: "placeholder_note", widget: "string" }
+
+          - label: "Les offres"
+            name: "offers"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - label: "Programmes"
+                name: "programs"
+                widget: "list"
+                fields:
+                  - { label: "Nom du programme", name: "name", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - { label: "Prix", name: "price", widget: "string" }
+                  - { label: "Mention livraison", name: "delivery", widget: "string" }
+                  - label: "Contenu inclus"
+                    name: "items"
+                    widget: "list"
+                    field: { label: "Élément", name: "item", widget: "string" }
+                  - { label: "Lien de paiement", name: "link", widget: "string" }
+                  - { label: "Texte du bouton", name: "button_text", widget: "string" }
+              - { label: "Texte note sport seul", name: "sport_note", widget: "text" }
+              - { label: "Lien options sport seul", name: "sport_link", widget: "string" }
+              - { label: "Titre bandeau quiz", name: "quiz_banner_title", widget: "string" }
+              - { label: "Texte bouton bandeau quiz", name: "quiz_banner_button", widget: "string" }
+              - { label: "Lien du quiz", name: "quiz_link", widget: "string" }
+
+          - label: "Mon histoire"
+            name: "histoire"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Paragraphe 1", name: "p1", widget: "text" }
+              - { label: "Paragraphe 2", name: "p2", widget: "text" }
+              - { label: "Texte du bouton", name: "cta_text", widget: "string" }
+              - { label: "Lien Calendly", name: "calendly_link", widget: "string" }
+
+          - label: "Pour qui"
+            name: "qualifier"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Titre colonne 'pour toi'", name: "for_you_title", widget: "string" }
+              - label: "Liste 'pour toi'"
+                name: "for_you"
+                widget: "list"
+                field: { label: "Élément", name: "item", widget: "string" }
+              - { label: "Titre colonne 'pas pour toi'", name: "not_for_you_title", widget: "string" }
+              - label: "Liste 'pas pour toi'"
+                name: "not_for_you"
+                widget: "list"
+                field: { label: "Élément", name: "item", widget: "string" }
+
+          - label: "FAQ"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - label: "Questions"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Question", name: "q", widget: "string" }
+                  - { label: "Réponse", name: "a", widget: "text" }
+
+          - label: "CTA final"
+            name: "final_cta"
+            widget: "object"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Lien du quiz", name: "quiz_link", widget: "string" }
+              - { label: "Texte du disclaimer santé", name: "disclaimer", widget: "text" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Nom / marque", name: "brand", widget: "string" }
+              - { label: "Lien Instagram", name: "instagram", widget: "string" }
+              - { label: "Lien TikTok", name: "tiktok", widget: "string" }
+              - { label: "Lien CGV", name: "cgv", widget: "string" }
+              - { label: "Lien mentions légales", name: "mentions", widget: "string" }
+              - { label: "Texte copyright", name: "copyright", widget: "string" }
