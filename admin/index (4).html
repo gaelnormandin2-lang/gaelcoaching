@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Gaël</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #10131F;
+      background-image: radial-gradient(circle at 15% 10%, #1B2136 0%, #10131F 55%);
+      color: #F3F1EA;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+    }
+    .logo {
+      font-family: 'Arial Black', Arial, sans-serif;
+      font-size: 20px;
+      color: #A3E635;
+      margin-bottom: 24px;
+      letter-spacing: 0.02em;
+    }
+    h1 {
+      font-family: 'Arial Black', Arial, sans-serif;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14.5px;
+      color: #b7c0b9;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+    button {
+      width: 100%;
+      background: #A3E635;
+      color: #10131F;
+      font-family: 'Arial Black', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 15px;
+      border: none;
+      border-radius: 8px;
+      padding: 15px;
+      cursor: pointer;
+    }
+    button:hover { background: #8fd12b; }
+    .status {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #8b948d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="logo">GAËL — ADMIN</div>
+    <h1>Espace d'administration</h1>
+    <p>Connecte-toi pour modifier le contenu de ton site.</p>
+    <button id="login-btn">Se connecter</button>
+    <div class="status" id="status"></div>
+  </div>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    const statusEl = document.getElementById('status');
+
+    window.netlifyIdentity.on('init', user => {
+      if (user) {
+        statusEl.textContent = "Déjà connecté, redirection...";
+        window.location.href = './cms.html';
+      }
+    });
+
+    window.netlifyIdentity.on('login', user => {
+      statusEl.textContent = "Connecté, redirection...";
+      window.location.href = './cms.html';
+    });
+
+    document.getElementById('login-btn').addEventListener('click', () => {
+      window.netlifyIdentity.open('login');
+    });
+
+    window.netlifyIdentity.init();
+  </script>
+
+</body>
+</html>
