@@ -57,10 +57,10 @@
     "tag": "Ce qui est inclus",
     "title": "Tout ce qu'il te faut, sans avoir à y penser.",
     "items": [
-      "Petit déjeuner nutritionnel complet (goût au choix), livré à la maison",
-      "Ton hydratation quotidienne, adaptée à ton objectif",
-      "Accès à l'app GetFitNow pour suivre ta progression",
-      "Suivi personnalisé, pas un programme figé"
+      "Petit déjeuner nutritionnel complet (goût au choix)",
+      "Ton hydratation quotidienne optimisée (goût au choix)",
+      "Accès à l'app GetFitNow pour ta routine nutritionnelle et sportive",
+      "Suivi personnalisé avec visio"
     ]
   },
   "histoire": {
@@ -91,7 +91,7 @@
   },
   "results": {
     "tag": "Les résultats",
-    "title": "Ils ont vécu les 21 jours.",
+    "title": "Ils ont testé les 21 jours.",
     "stats": [
       {
         "num": "[X]",
@@ -112,7 +112,7 @@
   },
   "offers": {
     "tag": "Les offres",
-    "title": "Choisis l'accompagnement qui correspond à ton objectif.",
+    "title": "Choisis l'accompagnement qui correspond à tes objectifs",
     "programs": [
       {
         "items": [
@@ -128,8 +128,8 @@
           "Citron",
           "Pêche"
         ],
-        "desc": "Le point de départ idéal pour mieux manger, retrouver de l'énergie et poser des bases solides.",
-        "delivery": "Livré à la maison",
+        "desc": "Le point de départ idéal pour prendre de bonnes habitudes, retrouver de l'énergie et avoir déjà des résultats visibles.",
+        "delivery": "Livré à la maison ou en point relais",
         "flavors": [
           "Vanille",
           "Fraise",
@@ -144,13 +144,13 @@
       },
       {
         "name": "Programme Perte de Poids",
-        "desc": "Pour un objectif clair : contrôler ton appétit, limiter les fringales, voir des résultats concrets.",
+        "desc": "Pour un objectif clair : limiter les fringales, voir des résultats concrets et prendre enfin du plaisir dans ta transformation.",
         "price": "265€",
-        "delivery": "Livré à la maison",
+        "delivery": "Livré à la maison ou en point relais",
         "items": [
           "Petit déjeuner nutritionnel complet (Goût au choix)",
           "Ton hydratation quotidienne (Goût au choix)",
-          "Boisson Multi-fibres pour booster tes résultats, aide le système immunitaire et digestifs",
+          "Boisson Multi-fibres pour accéléré tes résultats, aide le système immunitaire et digestif",
           "Accès à l'app GetFitNow",
           "Suivi personnalisé et visio"
         ],
@@ -167,19 +167,19 @@
         ]
       },
       {
-        "name": "Programme Performance",
+        "name": "Programme Performance & Prise de Masse",
         "desc": "Pour les sportifs qui veulent progresser réellement : récupérer, prendre du muscle, performer.",
         "price": "265€",
-        "delivery": "Livré à la maison",
+        "delivery": "Livré à la maison ou en point relais",
         "items": [
           "Petit déjeuner nutritionnel complet (Goût au choix)",
-          "Ta boisson de récupération (goût chocolat) d'après séance",
-          "CR7 Drive, pour ton hydratation interséance à base de glucides et d'électrolytes pour performer sur la durée",
+          "Ta boisson de récupération d'après séance (Goût chocolat)",
+          "CR7 Drive, pour ton hydratation inter séance (glucides & électrolytes) pour performer sur la durée",
           "Accès à l'app GetFitNow",
           "Suivi personnalisé et visio"
         ],
         "link": "PAIEMENT_PERFORMANCE_LIEN",
-        "button_text": "Je choisis Performance",
+        "button_text": "Je choisis Performance & Prise de Masse",
         "flavors": [
           "Vanille",
           "Fraise",
@@ -191,7 +191,7 @@
         ]
       }
     ],
-    "sport_note": "Tu veux un accompagnement sportif uniquement ? C'est possible, mais sois honnête avec toi-même : sans structurer aussi ton alimentation, tu limites ce que ton corps peut vraiment produire. La plupart des progrès stagnent sans ce levier. Si tu veux quand même avancer uniquement sur le sport, découvre les options ici.",
+    "sport_note": "Tu veux un accompagnement sportif uniquement ? \nC'est possible ! Mais sois honnête avec toi-même, sans structurer aussi ton alimentation, tu limites ce que ton corps peut vraiment produire et devenir. La plupart des progrès stagnent sans ce levier. Si tu veux quand même avancer uniquement sur le sport, découvre les options ici.",
     "sport_link": "SPORT_OFFERS_LINK",
     "quiz_banner_title": "Pas sûr(e) de ton choix ?",
     "quiz_banner_button": "Fais le quiz en 1 minute",
