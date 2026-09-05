@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "tag": "Bordeaux · Coach fitness & athlète Hyrox",
+    "title": "21 jours pour changer ce que ton corps peut vraiment faire.",
+    "subtitle": "Nutrition, sport, ou les deux : un accompagnement construit autour de ton objectif réel, avec un vrai suivi — pas un programme qu'on t'envoie et qu'on oublie.",
+    "cta_primary": "Découvrir les offres",
+    "cta_secondary": "Pas sûr(e) ? Fais le quiz →",
+    "quiz_link": "QUIZ_LINK_HERE"
+  },
+  "promesse": {
+    "tag": "La promesse",
+    "title": "On ne te vend pas un produit. On t'apprend à comprendre ce que tu manges.",
+    "p1": "La plupart des gens sautent le petit-déjeuner, ou prennent quelque chose de rapide sans savoir ce qu'il y a dedans. Avant de parler de programme, il faut comprendre une chose simple : peu de calories ne veut pas dire peu de nutriments.",
+    "p2": "Un apport de 220 kcal peut suffire à couvrir 18g de protéines et 25 vitamines et minéraux essentiels. La vraie question n'est jamais \"combien de calories\" — c'est \"qu'est-ce qu'il y a dedans\". C'est ce qu'on regarde ensemble, produit par produit, décision par décision."
+  },
+  "method": {
+    "tag": "Comment ça marche",
+    "title": "4 étapes. 21 jours. Un accompagnement qui évolue avec toi.",
+    "steps": [
+      { "num": "01", "title": "On identifie ton objectif réel", "desc": "Perte de poids, prise de muscle, performance, ou simplement retrouver de l'énergie — chaque objectif a une réponse différente." },
+      { "num": "02", "title": "Tu reçois un programme calibré", "desc": "Petit-déjeuner nutritionnel complet, hydratation adaptée, produits ciblés selon ton objectif — livrés directement chez toi." },
+      { "num": "03", "title": "Tu es suivi personnellement", "desc": "Pas un programme qu'on t'envoie et qu'on oublie : un vrai suivi, ajusté à ton rythme et à tes retours." },
+      { "num": "04", "title": "Tu ajustes, tu progresses", "desc": "Le programme évolue avec toi sur les 21 jours — il ne reste pas figé si ta réalité quotidienne change." }
+    ]
+  },
+  "includes": {
+    "tag": "Ce qui est inclus",
+    "title": "Tout ce qu'il te faut, sans avoir à y penser.",
+    "items": [
+      "Petit déjeuner nutritionnel complet (goût au choix), livré à la maison",
+      "Ton hydratation quotidienne, adaptée à ton objectif",
+      "Accès à l'app GetFitNow pour suivre ta progression",
+      "Suivi personnalisé, pas un programme figé"
+    ]
+  },
+  "results": {
+    "tag": "Les résultats",
+    "title": "Ils ont vécu les 21 jours.",
+    "stats": [
+      { "num": "[X]", "label": "clients accompagnés" },
+      { "num": "[X]", "label": "kg perdus en moyenne" },
+      { "num": "[X]", "label": "jours de suivi" }
+    ],
+    "quote": "[Citation d'un client sur son ressenti ou son résultat]",
+    "quote_who": "[Prénom] — [Programme suivi]",
+    "placeholder_note": "Remplace cette section avec tes vrais témoignages dès que tu en as — même 1 ou 2 suffisent pour démarrer."
+  },
+  "offers": {
+    "tag": "Les offres",
+    "title": "Choisis l'accompagnement qui correspond à ton objectif.",
+    "programs": [
+      {
+        "name": "Programme Essentiel",
+        "desc": "Le point de départ idéal pour mieux manger, retrouver de l'énergie et poser des bases solides.",
+        "price": "159€",
+        "delivery": "Livré à la maison",
+        "items": ["Petit déjeuner nutritionnel complet (Goût au choix)", "Ton hydratation quotidienne (Goût au choix)", "Accès à l'app GetFitNow", "Suivi personnalisé et visio"],
+        "link": "PAIEMENT_ESSENTIEL_LIEN",
+        "button_text": "Je choisis Essentiel"
+      },
+      {
+        "name": "Programme Perte de Poids",
+        "desc": "Pour un objectif clair : contrôler ton appétit, limiter les fringales, voir des résultats concrets.",
+        "price": "265€",
+        "delivery": "Livré à la maison",
+        "items": ["Petit déjeuner nutritionnel complet (Goût au choix)", "Ton hydratation quotidienne (Goût au choix)", "Boisson Multi-fibres pour booster tes résultats, aide le système immunitaire et digestifs", "Accès à l'app GetFitNow", "Suivi personnalisé et visio"],
+        "link": "PAIEMENT_PERTE_LIEN",
+        "button_text": "Je choisis Perte de Poids"
+      },
+      {
+        "name": "Programme Performance",
+        "desc": "Pour les sportifs qui veulent progresser réellement : récupérer, prendre du muscle, performer.",
+        "price": "265€",
+        "delivery": "Livré à la maison",
+        "items": ["Petit déjeuner nutritionnel complet (Goût au choix)", "Ta boisson de récupération (goût chocolat) d'après séance", "CR7 Drive, pour ton hydratation interséance à base de glucides et d'électrolytes pour performer sur la durée", "Accès à l'app GetFitNow", "Suivi personnalisé et visio"],
+        "link": "PAIEMENT_PERFORMANCE_LIEN",
+        "button_text": "Je choisis Performance"
+      }
+    ],
+    "sport_note": "Tu veux un accompagnement sportif uniquement ? C'est possible, mais sois honnête avec toi-même : sans structurer aussi ton alimentation, tu limites ce que ton corps peut vraiment produire. La plupart des progrès stagnent sans ce levier. Si tu veux quand même avancer uniquement sur le sport, découvre les options ici.",
+    "sport_link": "SPORT_OFFERS_LINK",
+    "quiz_banner_title": "Pas sûr(e) de ton choix ?",
+    "quiz_banner_button": "Fais le quiz en 1 minute",
+    "quiz_link": "QUIZ_LINK_HERE"
+  },
+  "histoire": {
+    "tag": "Mon histoire",
+    "title": "Je m'appelle Gaël.",
+    "p1": "Je suis coach fitness et athlète hybride, engagé en compétition Hyrox. Mon parcours n'a pas été linéaire : après une année d'études en sciences du sport interrompue par une blessure, j'ai continué à avancer autrement — en tant que coach à Girondins Fitness, en tant que sapeur-pompier volontaire, et en construisant mon propre chemin dans la nutrition et l'accompagnement sportif.",
+    "p2": "Ce que j'ai appris à travers tout ça, c'est que les résultats durables ne viennent jamais d'un plan générique. Ils viennent d'une vraie compréhension de son corps, d'un accompagnement honnête, et d'un suivi qui s'adapte à la réalité de chacun.",
+    "cta_text": "Réserver un appel avec moi",
+    "calendly_link": "CALENDLY_LINK_HERE"
+  },
+  "qualifier": {
+    "tag": "Pour qui",
+    "title": "Ce n'est pas fait pour tout le monde — et c'est très bien comme ça.",
+    "for_you_title": "C'est pour toi si...",
+    "for_you": [
+      "Tu veux comprendre ce que tu manges, pas juste suivre un plan sans réfléchir",
+      "Tu es prêt(e) à t'investir sur la durée",
+      "Tu veux un vrai suivi, pas un programme qu'on oublie",
+      "Tu cherches un accompagnement honnête"
+    ],
+    "not_for_you_title": "Ce n'est pas pour toi si...",
+    "not_for_you": [
+      "Tu cherches une solution miracle sans rien changer",
+      "Tu veux un plan sans jamais échanger avec quelqu'un",
+      "Tu n'es pas prêt(e) à t'engager sur 21 jours complets"
+    ]
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Questions fréquentes",
+    "items": [
+      { "q": "Est-ce que ça marche si je suis végétarien(ne) ?", "a": "[Réponse à personnaliser selon la compatibilité des produits.]" },
+      { "q": "Combien de temps ça prend par jour ?", "a": "Le programme est pensé pour s'intégrer dans ton quotidien — quelques minutes de préparation, un suivi qui s'adapte à ton rythme." },
+      { "q": "Et si je n'ai pas de résultats ?", "a": "Si tu suis le programme sans obtenir les résultats attendus, on ajuste ensemble sans frais supplémentaire." }
+    ]
+  },
+  "final_cta": {
+    "title": "Ton objectif ne va pas se réaliser tout seul.",
+    "quiz_link": "QUIZ_LINK_HERE",
+    "disclaimer": "Je ne suis pas médecin. Les programmes proposés ici sont un accompagnement nutrition et sport, pas un traitement médical, et ne remplacent pas un suivi médical ou thérapeutique. Ils ne sont pas recommandés si tu es enceinte, en post-partum immédiat, atteint(e) de pathologies métaboliques ou hormonales nécessitant un suivi médical strict, ou si tu suis un traitement médical spécifique sans l'avis de ton médecin. Le moindre doute ? Demande l'avis d'un professionnel de santé avant de commencer."
+  },
+  "footer": {
+    "brand": "GAËL — Coach fitness & nutrition",
+    "instagram": "INSTAGRAM_LINK_HERE",
+    "tiktok": "TIKTOK_LINK_HERE",
+    "cgv": "CGV_LINK_HERE",
+    "mentions": "MENTIONS_LEGALES_LINK_HERE",
+    "copyright": "© 2026 · Tous droits réservés"
+  }
+}
