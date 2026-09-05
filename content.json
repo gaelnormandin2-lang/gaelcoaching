@@ -1,12 +1,4 @@
 {
-  "hero": {
-    "tag": "Bordeaux · Coach fitness & athlète Hyrox",
-    "title": "21 jours pour changer ce que ton corps peut vraiment faire.",
-    "subtitle": "Nutrition, sport, ou les deux : un accompagnement construit autour de ton objectif réel, avec un vrai suivi — pas un programme qu'on t'envoie et qu'on oublie.",
-    "cta_primary": "Découvrir les offres",
-    "cta_secondary": "Pas sûr(e) ? Fais le quiz →",
-    "quiz_link": "QUIZ_LINK_HERE"
-  },
   "promesse": {
     "tag": "La promesse",
     "title": "On ne te vend pas un produit. On t'apprend à comprendre ce que tu manges.",
@@ -39,6 +31,28 @@
       }
     ]
   },
+  "final_cta": {
+    "title": "Ton objectif ne va pas se réaliser tout seul.",
+    "quiz_link": "QUIZ_LINK_HERE",
+    "disclaimer": "Je ne suis pas médecin. Les programmes proposés ici sont un accompagnement nutrition et sport, pas un traitement médical, et ne remplacent pas un suivi médical ou thérapeutique. Ils ne sont pas recommandés si tu es enceinte, en post-partum immédiat, atteint(e) de pathologies métaboliques ou hormonales nécessitant un suivi médical strict, ou si tu suis un traitement médical spécifique sans l'avis de ton médecin. Le moindre doute ? Demande l'avis d'un professionnel de santé avant de commencer."
+  },
+  "qualifier": {
+    "tag": "Pour qui",
+    "title": "Ce n'est pas fait pour tout le monde — et c'est très bien comme ça.",
+    "for_you_title": "C'est pour toi si...",
+    "for_you": [
+      "Tu veux comprendre ce que tu manges, pas juste suivre un plan sans réfléchir",
+      "Tu es prêt(e) à t'investir sur la durée",
+      "Tu veux un vrai suivi, pas un programme qu'on oublie",
+      "Tu cherches un accompagnement honnête"
+    ],
+    "not_for_you_title": "Ce n'est pas pour toi si...",
+    "not_for_you": [
+      "Tu cherches une solution miracle sans rien changer",
+      "Tu veux un plan sans jamais échanger avec quelqu'un",
+      "Tu n'es pas prêt(e) à t'engager sur 21 jours complets"
+    ]
+  },
   "includes": {
     "tag": "Ce qui est inclus",
     "title": "Tout ce qu'il te faut, sans avoir à y penser.",
@@ -47,6 +61,32 @@
       "Ton hydratation quotidienne, adaptée à ton objectif",
       "Accès à l'app GetFitNow pour suivre ta progression",
       "Suivi personnalisé, pas un programme figé"
+    ]
+  },
+  "histoire": {
+    "tag": "Mon histoire",
+    "title": "Je m'appelle Gaël.",
+    "p1": "Je suis coach fitness et athlète hybride, engagé en compétition Hyrox. Mon parcours n'a pas été linéaire : après une année d'études en sciences du sport interrompue par une blessure, j'ai continué à avancer autrement — en tant que coach à Girondins Fitness, en tant que sapeur-pompier volontaire, et en construisant mon propre chemin dans la nutrition et l'accompagnement sportif.",
+    "p2": "Ce que j'ai appris à travers tout ça, c'est que les résultats durables ne viennent jamais d'un plan générique. Ils viennent d'une vraie compréhension de son corps, d'un accompagnement honnête, et d'un suivi qui s'adapte à la réalité de chacun.",
+    "cta_text": "Réserver un appel avec moi",
+    "calendly_link": "CALENDLY_LINK_HERE"
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Est-ce que ça marche si je suis végétarien(ne) ?",
+        "a": "[Réponse à personnaliser selon la compatibilité des produits.]"
+      },
+      {
+        "q": "Combien de temps ça prend par jour ?",
+        "a": "Le programme est pensé pour s'intégrer dans ton quotidien — quelques minutes de préparation, un suivi qui s'adapte à ton rythme."
+      },
+      {
+        "q": "Et si je n'ai pas de résultats ?",
+        "a": "Si tu suis le programme sans obtenir les résultats attendus, on ajuste ensemble sans frais supplémentaire."
+      }
     ]
   },
   "results": {
@@ -75,18 +115,21 @@
     "title": "Choisis l'accompagnement qui correspond à ton objectif.",
     "programs": [
       {
-        "name": "Programme Essentiel",
-        "desc": "Le point de départ idéal pour mieux manger, retrouver de l'énergie et poser des bases solides.",
-        "price": "159€",
-        "delivery": "Livré à la maison",
         "items": [
           "Petit déjeuner nutritionnel complet (Goût au choix)",
           "Ton hydratation quotidienne (Goût au choix)",
           "Accès à l'app GetFitNow",
           "Suivi personnalisé et visio"
         ],
-        "link": "PAIEMENT_ESSENTIEL_LIEN",
-        "button_text": "Je choisis Essentiel",
+        "price": "159€",
+        "name": "Programme Essentiel",
+        "flavors_drink": [
+          "Framboise",
+          "Citron",
+          "Pêche"
+        ],
+        "desc": "Le point de départ idéal pour mieux manger, retrouver de l'énergie et poser des bases solides.",
+        "delivery": "Livré à la maison",
         "flavors": [
           "Vanille",
           "Fraise",
@@ -96,11 +139,8 @@
           "Café Latte",
           "Framboise Chocolat Blanc (sans gluten)"
         ],
-        "flavors_drink": [
-          "Framboise",
-          "Citron",
-          "Pêche"
-        ]
+        "button_text": "Je choisis Essentiel",
+        "link": "PAIEMENT_ESSENTIEL_LIEN"
       },
       {
         "name": "Programme Perte de Poids",
@@ -157,53 +197,13 @@
     "quiz_banner_button": "Fais le quiz en 1 minute",
     "quiz_link": "QUIZ_LINK_HERE"
   },
-  "histoire": {
-    "tag": "Mon histoire",
-    "title": "Je m'appelle Gaël.",
-    "p1": "Je suis coach fitness et athlète hybride, engagé en compétition Hyrox. Mon parcours n'a pas été linéaire : après une année d'études en sciences du sport interrompue par une blessure, j'ai continué à avancer autrement — en tant que coach à Girondins Fitness, en tant que sapeur-pompier volontaire, et en construisant mon propre chemin dans la nutrition et l'accompagnement sportif.",
-    "p2": "Ce que j'ai appris à travers tout ça, c'est que les résultats durables ne viennent jamais d'un plan générique. Ils viennent d'une vraie compréhension de son corps, d'un accompagnement honnête, et d'un suivi qui s'adapte à la réalité de chacun.",
-    "cta_text": "Réserver un appel avec moi",
-    "calendly_link": "CALENDLY_LINK_HERE"
-  },
-  "qualifier": {
-    "tag": "Pour qui",
-    "title": "Ce n'est pas fait pour tout le monde — et c'est très bien comme ça.",
-    "for_you_title": "C'est pour toi si...",
-    "for_you": [
-      "Tu veux comprendre ce que tu manges, pas juste suivre un plan sans réfléchir",
-      "Tu es prêt(e) à t'investir sur la durée",
-      "Tu veux un vrai suivi, pas un programme qu'on oublie",
-      "Tu cherches un accompagnement honnête"
-    ],
-    "not_for_you_title": "Ce n'est pas pour toi si...",
-    "not_for_you": [
-      "Tu cherches une solution miracle sans rien changer",
-      "Tu veux un plan sans jamais échanger avec quelqu'un",
-      "Tu n'es pas prêt(e) à t'engager sur 21 jours complets"
-    ]
-  },
-  "faq": {
-    "tag": "FAQ",
-    "title": "Questions fréquentes",
-    "items": [
-      {
-        "q": "Est-ce que ça marche si je suis végétarien(ne) ?",
-        "a": "[Réponse à personnaliser selon la compatibilité des produits.]"
-      },
-      {
-        "q": "Combien de temps ça prend par jour ?",
-        "a": "Le programme est pensé pour s'intégrer dans ton quotidien — quelques minutes de préparation, un suivi qui s'adapte à ton rythme."
-      },
-      {
-        "q": "Et si je n'ai pas de résultats ?",
-        "a": "Si tu suis le programme sans obtenir les résultats attendus, on ajuste ensemble sans frais supplémentaire."
-      }
-    ]
-  },
-  "final_cta": {
-    "title": "Ton objectif ne va pas se réaliser tout seul.",
-    "quiz_link": "QUIZ_LINK_HERE",
-    "disclaimer": "Je ne suis pas médecin. Les programmes proposés ici sont un accompagnement nutrition et sport, pas un traitement médical, et ne remplacent pas un suivi médical ou thérapeutique. Ils ne sont pas recommandés si tu es enceinte, en post-partum immédiat, atteint(e) de pathologies métaboliques ou hormonales nécessitant un suivi médical strict, ou si tu suis un traitement médical spécifique sans l'avis de ton médecin. Le moindre doute ? Demande l'avis d'un professionnel de santé avant de commencer."
+  "hero": {
+    "tag": "Ton programme sur mesure",
+    "title": "D'un programme sur 21 jours pour des résultats durables",
+    "subtitle": "Nutrition, sport, ou les deux : un accompagnement construit autour de tes objectifs, avec un vrai suivi personnalisé en fonction de tes besoins.",
+    "cta_primary": "Découvrir les offres",
+    "cta_secondary": "Pas sûr(e) ? Fais le quiz →",
+    "quiz_link": "https://gaelnormandin2.systeme.io/quiz"
   },
   "footer": {
     "brand": "GAËL — Coach fitness & nutrition",
